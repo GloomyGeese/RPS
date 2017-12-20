@@ -58,5 +58,6 @@ public class Rps {
 		}
 		}
 		reader.close();
+		TimeUnit.SECONDS.sleep(5);
 	}
 }
