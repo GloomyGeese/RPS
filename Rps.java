@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class Rps {
 	public static void main(String[] args) throws InterruptedException {
 		Scanner reader = new Scanner(System.in); // Asks the user for number of searches
-		System.out.println("Pick the total # of games, ie '3' means best of 3. Use odd numbers or it breaks."); 
+		System.out.println("Pick the total # of games, ie '3' means best of 3. Odd numbers work better."); 
 		int games = reader.nextInt();
 		int usrscore = 0;
 		int compscore = 0;
